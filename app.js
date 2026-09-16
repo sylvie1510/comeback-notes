@@ -20,10 +20,6 @@ function rz(t){
 
 function render(){
   document.getElementById('title').textContent = TITLE;
-  document.getElementById('sub').textContent = rz(SUB);
-
-  document.querySelectorAll('[data-g]').forEach(b =>
-    b.setAttribute('aria-pressed', b.dataset.g === G));
 
   const hb = document.getElementById('howto');
   if(hb) hb.innerHTML = `<div class="eyebrow">${esc(HOWTO_T)}</div>` +
