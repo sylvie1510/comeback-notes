@@ -25,6 +25,10 @@ function render(){
   document.querySelectorAll('[data-g]').forEach(b =>
     b.setAttribute('aria-pressed', b.dataset.g === G));
 
+  const hb = document.getElementById('howto');
+  if(hb) hb.innerHTML = `<div class="eyebrow">${esc(HOWTO_T)}</div>` +
+    HOWTO.map(l => `<p>${esc(rz(l))}</p>`).join('');
+
   document.getElementById('cats').innerHTML = `<div class="cards">${
     NOTES.map(t => {
       const v = rz(t);
