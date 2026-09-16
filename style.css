@@ -27,7 +27,7 @@ h1{font-weight:900;font-size:clamp(2.6rem,11vw,4.6rem);line-height:.95;
 .gpick button[aria-pressed="true"]{background:var(--crimson);border-color:var(--crimson);color:var(--sheet)}
 .hint{font-size:.86rem;color:var(--ink-mute);margin-top:.7rem}
 
-.cat{margin-top:clamp(2.8rem,8vw,4rem)}
+#cats{margin-top:clamp(2.4rem,7vw,3.4rem)}
 .cathead{border-top:1px solid var(--rule);padding-top:1.2rem;margin-bottom:1.3rem}
 .cathead h2{font-weight:900;font-size:clamp(1.5rem,5vw,2rem);color:var(--crimson);line-height:1.1}
 .cathead p{font-size:.95rem;color:var(--ink-mute);margin-top:.3rem}
